@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D8F5A42-8F42-4D42-9A42-8F428F428F42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9D9F6A52-9F52-4D52-9A52-9F529F529F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MukuruLoyalty.Domain", "src\MukuruLoyalty.Domain\MukuruLoyalty.Domain.csproj", "{1D1F7A62-1F62-4D62-9A62-1F621F621F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MukuruLoyalty.Application", "src\MukuruLoyalty.Application\MukuruLoyalty.Application.csproj", "{2D2F8A72-2F72-4D72-9A72-2F722F722F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MukuruLoyalty.Infrastructure", "src\MukuruLoyalty.Infrastructure\MukuruLoyalty.Infrastructure.csproj", "{3D3F9A82-3F82-4D82-9A82-3F823F823F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MukuruLoyalty.Domain.Tests", "tests\MukuruLoyalty.Domain.Tests\MukuruLoyalty.Domain.Tests.csproj", "{4D4F0A92-4F92-4D92-9A92-4F924F924F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MukuruLoyalty.Application.Tests", "tests\MukuruLoyalty.Application.Tests\MukuruLoyalty.Application.Tests.csproj", "{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D1F7A62-1F62-4D62-9A62-1F621F621F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1F7A62-1F62-4D62-9A62-1F621F621F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1F7A62-1F62-4D62-9A62-1F621F621F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1F7A62-1F62-4D62-9A62-1F621F621F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2F8A72-2F72-4D72-9A72-2F722F722F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2F8A72-2F72-4D72-9A72-2F722F722F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2F8A72-2F72-4D72-9A72-2F722F722F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2F8A72-2F72-4D72-9A72-2F722F722F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3F9A82-3F82-4D82-9A82-3F823F823F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3F9A82-3F82-4D82-9A82-3F823F823F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3F9A82-3F82-4D82-9A82-3F823F823F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3F9A82-3F82-4D82-9A82-3F823F823F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4F0A92-4F92-4D92-9A92-4F924F924F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F0A92-4F92-4D92-9A92-4F924F924F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F0A92-4F92-4D92-9A92-4F924F924F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F0A92-4F92-4D92-9A92-4F924F924F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D1F7A62-1F62-4D62-9A62-1F621F621F62} = {8D8F5A42-8F42-4D42-9A42-8F428F428F42}
+		{2D2F8A72-2F72-4D72-9A72-2F722F722F72} = {8D8F5A42-8F42-4D42-9A42-8F428F428F42}
+		{3D3F9A82-3F82-4D82-9A82-3F823F823F82} = {8D8F5A42-8F42-4D42-9A42-8F428F428F42}
+		{4D4F0A92-4F92-4D92-9A92-4F924F924F92} = {9D9F6A52-9F52-4D52-9A52-9F529F529F52}
+		{5D5F1AA2-5FA2-4DA2-9AA2-5FA25FA25FA2} = {9D9F6A52-9F52-4D52-9A52-9F529F529F52}
+	EndGlobalSection
+EndGlobal
