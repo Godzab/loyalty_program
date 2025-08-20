@@ -1,5 +1,6 @@
-using MukuruLoyalty.Domain.LoyaltyAccounts;
 using System.Collections.Concurrent;
+
+using MukuruLoyalty.Domain.LoyaltyAccounts;
 
 namespace MukuruLoyalty.Infrastructure.Persistence.InMemory;
 
@@ -11,6 +12,9 @@ public class InMemoryLoyaltyAccountRepository : ILoyaltyAccountRepository
 {
     private readonly ConcurrentDictionary<Guid, LoyaltyAccount> _storage = new();
 
-    // TODO: Implement based on your repository interface design
-    // Consider: Thread safety, idempotency, query requirements
+    public Task<IReadOnlyList<LoyaltyAccount>> GetAllAsync(CancellationToken cancellationToken = default)
+    {
+        var accounts = _storage.Values.ToList();
+        return Task.FromResult<IReadOnlyList<LoyaltyAccount>>(accounts);
+    }
 }

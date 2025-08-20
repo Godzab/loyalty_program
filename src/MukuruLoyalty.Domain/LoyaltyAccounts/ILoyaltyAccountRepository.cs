@@ -8,4 +8,6 @@ public interface ILoyaltyAccountRepository
 {
     // TODO: Define repository methods
     // Think about: aggregate boundaries, consistency requirements, query needs
+
+    Task<IReadOnlyList<LoyaltyAccount>> GetAllAsync(CancellationToken cancellationToken = default);
 }
